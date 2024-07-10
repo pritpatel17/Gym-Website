@@ -1,21 +1,16 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
-      {/* <div className="NavbarMain">
-        <Link to="/" className="navbar-brand">
-          Easy
-        </Link>
-
-        <div>
-          <h6>Its The Right Time To Start.</h6>
-        </div>
-      </div> */}
-
-      {/* For Navbar Links */}
       <nav className="navbar navbar-expand">
-        <div>
+        <div className="navbar-brand">
+          <Link to="/" className="brand-link">
+            My Fitness
+          </Link>
+        </div>
+        <div className="navbar-links">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/">
@@ -43,4 +38,5 @@ const Navbar = () => {
     </>
   );
 };
+
 export default Navbar;
