@@ -36,9 +36,9 @@
   width: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: var(--main);
-}
+} */
 
 ::-webkit-scrollbar-track {
   background: #000;

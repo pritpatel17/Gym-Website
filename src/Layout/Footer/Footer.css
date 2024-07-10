@@ -2,8 +2,31 @@ footer {
     background: var(--main) !important;
     text-align: center;
     padding: 20px;
+    color: #fff;
 }
 
 footer .FooterLink {
     color: #fff !important;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footerDetails p {
+    margin: 5px 0;
+}
+
+.footerDetails a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerDetails a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footerDetails p {
+        font-size: 14px;
+    }
 }
