@@ -1,0 +1,68 @@
+/* About Home Start */
+.AboutHome {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(aboutgym.jpg) no-repeat;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.AboutHome .AboutContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+
+}
+
+.AboutHome .AboutContent h6 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.AboutHome .AboutContent h5 {
+    font-size: 150px;
+    font-weight: 900;
+    color: var(--main);
+}
+
+/* About Home End */
+
+/* whyChoose us Section Start */
+.WhyChooseUs {
+    margin-bottom: 150px;
+}
+
+.WhyChooseUs .box {
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    background: #fff;
+}
+
+.WhyChooseUs .box:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.WhyChooseUs .box h6 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+}
+
+.WhyChooseUs .box p {
+    font-size: 12px;
+}
+
+.WhyChooseUs img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--boxShadow);
+}
+
+/* whyChoose us Section End */

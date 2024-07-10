@@ -1,0 +1,29 @@
+.Offers{
+    margin: 100px auto;
+}
+.Offers  h5{
+    font-size: 100px;
+    color: #000;
+    font-weight: 800;
+}
+ .Offers .box{
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+ }
+ .Offers .box:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+ }
+ 
+ .Offers .box h6{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+ }
+
+ .Offers .box p{
+    font-size: 12px;
+    color: #000 !important;
+ }

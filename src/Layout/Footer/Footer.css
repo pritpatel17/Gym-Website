@@ -1,0 +1,9 @@
+footer {
+    background: var(--main) !important;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .FooterLink {
+    color: #fff !important;
+}

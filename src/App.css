@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+:root {
+  --main: #ff0000;
+  --boxShadow: 15px 15px 15px -10px rgba(207, 13, 13, 0.7),
+    inset 10px 10px 10px -10px rgba(202, 19, 19, 0.946);
+}
+
+* {
+  font-family: "Besley", serif;
+  text-decoration: none !important;
+  transition: 0.2s ease-in;
+}
+
+/* *::selection {
+  background: var(--main);
+  color: #000;
+} */
+
+
+/* For Btn */
+.btn {
+  width: 200px;
+  background: var(--main);
+  color: #fff !important;
+  box-shadow: var(--boxShadow);
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  border-radius: 20px;
+  letter-spacing: 0.2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content h6 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #000;
+}
+
+.content h6 span {
+  color: var(--main) !important;
+  font-weight: 900;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(14, 14, 74, 0.3), rgb(63, 8, 8, 0.3), rgb(29, 27, 38, 0.4));
+}

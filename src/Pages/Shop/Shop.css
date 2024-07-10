@@ -1,0 +1,28 @@
+.ShopHome {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(shopgym.jpg) no-repeat;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ShopHome .ShopContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+
+}
+
+.ShopHome .ShopContent h6 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ShopHome .ShopContent h5 {
+    font-size: 150px;
+    font-weight: 900;
+    color: var(--main);
+}
